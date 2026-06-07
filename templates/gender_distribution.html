@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+<div id="chart"></div>
+
+<script>
+var data = [{
+    values: [50, 50],
+    labels: ['Male', 'Female'],
+    type: 'pie'
+}];
+
+Plotly.newPlot('chart', data);
+</script>
+
+</body>
+</html>

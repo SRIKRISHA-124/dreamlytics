@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Steps Distribution</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+<div id="chart"></div>
+
+<script>
+    var data = [{
+        x: [3000, 5000, 7000, 8000, 10000, 12000, 4000, 6000, 9000],
+        type: "histogram"
+    }];
+
+    var layout = {
+        title: "Daily Steps Distribution"
+    };
+
+    Plotly.newPlot("chart", data, layout);
+</script>
+
+</body>
+</html>
